@@ -128,7 +128,7 @@ const Testimonials: React.FC = () => {
 
               {/* Content */}
               <blockquote className="text-gray-300 mb-6 leading-relaxed group-hover:text-white transition-colors duration-300">
-                "{testimonial.content}"
+                {testimonial.content}
               </blockquote>
 
               {/* Author */}
