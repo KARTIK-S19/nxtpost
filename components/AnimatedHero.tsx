@@ -245,7 +245,7 @@ const AnimatedHero: React.FC = () => {
       </div>
 
       {/* Page Corner Elements */}
-      <div className="absolute top-4 left-4 sm:top-6 sm:left-6 z-20">
+      {/* <div className="absolute top-4 left-4 sm:top-6 sm:left-6 z-20">
         <Image src="/images/nxtpostlogo.png" alt="NxtPost Logo" width={150} height={40} />
       </div>
       
@@ -253,7 +253,7 @@ const AnimatedHero: React.FC = () => {
         <button className="bg-white/10 backdrop-blur-md border border-white/20 hover:bg-white/20 hover:border-white/40 text-white px-4 py-2 sm:px-6 sm:py-3 rounded-xl transition-all duration-300 hover:scale-105 font-medium text-sm sm:text-base">
           Get Started
         </button>
-      </div>
+      </div> */}
  
       {/* Hero Content */}
       <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center w-full h-fit">
@@ -262,11 +262,11 @@ const AnimatedHero: React.FC = () => {
           {/* Center Badges */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4 mb-8 sm:mb-10 mt-8 sm:mt-10 px-4">
             <div className="inline-flex items-center px-3 py-2 sm:px-4 sm:py-2 bg-white/10 backdrop-blur-md rounded-full border border-white/20 animate-pulse-glow h-9 sm:h-10">
-              <div className="w-2 h-2 bg-slate-300 rounded-full mr-2 sm:mr-3 animate-pulse" />
-              <span className="text-xs sm:text-sm font-medium text-white whitespace-nowrap">Join 50,000+ Creators</span>
+              <div className="w-2 h-2 bg-teal-300 rounded-full mr-2 sm:mr-3 animate-pulse" />
+              <span className="text-xs sm:text-sm font-medium text-white whitespace-nowrap">Join 50,000+ Creators</span> 
             </div>
             <div className="inline-flex items-center px-3 py-2 sm:px-4 sm:py-2 bg-white/10 backdrop-blur-sm rounded-full border border-white/20 animate-pulse-glow h-9 sm:h-10">
-              <Sparkles className="w-3 h-3 sm:w-4 sm:h-4 mr-2 text-slate-300" />
+              <Sparkles className="w-3 h-3 sm:w-4 sm:h-4 mr-2 text-yellow-300" />
               <span className="text-xs sm:text-sm font-medium text-white whitespace-nowrap">AI-Powered Content</span>
             </div>
           </div>
@@ -342,11 +342,11 @@ const AnimatedHero: React.FC = () => {
         }
 
         .animate-scroll-up {
-          animation: scroll-up 20s linear infinite;
+          animation: scroll-up 35s linear infinite;
         }
 
         .animate-scroll-down {
-          animation: scroll-down 20s linear infinite;
+          animation: scroll-down 35s linear infinite;
         }
 
         .animate-pulse-glow {

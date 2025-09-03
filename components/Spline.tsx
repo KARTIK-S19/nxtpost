@@ -77,10 +77,10 @@ const SplineComponent = () => {
 
   return (
     <section ref={sectionRef} className='h-screen'>
-    <div className='absolute left-10 h-150 w-160 mt-8'>
+    <div className='absolute left-10 lg:h-150 lg:w-160 sm:h-100 sm:w-100 md:h-120 md:w-120 mt-8'>
         <Spline scene="https://prod.spline.design/TAG6XQit4ldA1lOf/scene.splinecode" />
     </div>
-    <div className='absolute right-10 w-200 h-screen bg-slate-900 z-99 flex items-center justify-center'>
+    <div className='absolute right-10 lg:w-200 sm:w-100 md:150 h-screen bg-slate-900 z-40 flex items-center justify-center'>
       <section className='m-8 '>
         <h2 className='text-white text-3xl font-bold mb-4'>
             {displayedHeading}
